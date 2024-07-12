@@ -62,7 +62,7 @@ ul li a{
   }
 .simg{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
     /* border: 2px dotted darkslategrey ; */
     
 } 
@@ -74,9 +74,12 @@ ul li a{
 }
 .p1{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 5em;
+    font-size: 6em;
     color: azure;
     
+}
+.large{
+  font-size: 1.3em;
 }
 .pic
 {
@@ -88,13 +91,18 @@ ul li a{
 }
 
 .get{
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(35, 95, 95);
+    
+    
     margin: 2em;
     padding: 1em 1em;
     border-radius: 28px;
     box-shadow: none;
     
+}
+.get a{
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(35, 95, 95);
 }
 .you{
    font-family:  serif;
@@ -232,3 +240,202 @@ ul li a{
  .best{
   font-size: 1.2em;
  }
+
+
+ /* Footer Styles */
+
+footer {
+  background-color: #2F2F2F;
+  color: #FFFFFF;
+  padding: 20px 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-column {
+  width: 30%;
+  margin: 20px 0 20px 0; /* Add this line to remove the padding on the left side of the columns */
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Add this line to align the elements in the columns to the flex-start */
+}
+
+.footer-column li {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.footer-column a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.footer-column a:hover {
+  color: #66D9EF;
+}
+
+.footer-bottom {
+  background-color: #1A1A1A;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+  border-top: 1px solid #FFFFFF; /* Add this line to make the horizontal line white */
+}
+
+.footer-bottom p {
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons li {
+  margin: 0 10px;
+}
+
+.social-icons a {
+  color: #FFFFFF; /* Add this line to make the icons white */
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #66D9EF;
+}
+
+/* Sidebar section */
+.sidebar{
+  color: #fff;
+  width: 22%;
+  height: 92.1vh;
+  position: fixed;
+  top: 8vh;
+  left: 0;
+  box-shadow: 2px 2px 10px 2px #000;
+}
+
+.sidebar_item{
+  transition: all .22s;
+}
+
+.sidebar_item:hover{
+  color: #b34902f5 !important;
+}
+
+/* mainbar section */
+div.main-bar{
+  /* border: 1px solid black; */
+  margin-left: 22%;
+  margin-top: 3.8em;
+  width: 78%;
+  height: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+div.black-glass{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.sidebar{
+  background-color: #A6D7B6; 
+  /* background: -webkit-linear-gradient(to right, #070000, #0c0600, #070000);  */
+  /* background: linear-gradient(to right, #070000, #0a0601f5, #070000); */
+}
+
+.navbar, .sidebar, th, footer{
+    background: #070000; 
+    background: -webkit-linear-gradient(to right, #070000, #0c0600, #070000); 
+    background: linear-gradient(to right, #070000, #0a0601f5, #070000);
+}
+
+.d-card-color{
+    color: #140800; 
+}
+
+.brand-text{
+    color: #e46008 !important;
+    text-shadow: 2px 2px 2px #1c3955f5;
+}
+
+/* Sidebar section */
+.sidebar{
+    color: #fff;
+    width: 22%;
+    height: 92.1vh;
+    position: fixed;
+    top: 8vh;
+    left: 0;
+    box-shadow: 2px 2px 10px 2px #000;
+}
+
+.sidebar_item{
+    transition: all .22s;
+}
+
+.sidebar_item:hover{
+    color: #b34902f5 !important;
+}
+.navbar, .sidebar, th, footer{
+  background-color: #A6D7B6; 
+  /* background: -webkit-linear-gradient(to right, #070000, #0c0600, #070000);  */
+  /* background: linear-gradient(to right, #070000, #0a0601f5, #070000); */
+}
+
+.d-card-color{
+  color: #140800; 
+}
+
+.brand-text{
+  color: #e46008 !important;
+  text-shadow: 2px 2px 2px #1c3955f5;
+}
+
+/* Sidebar section */
+.sidebar{
+  color: #fff;
+  width: 22%;
+  height: 92.1vh;
+  position: fixed;
+  top: 8vh;
+  left: 0;
+  box-shadow: 2px 2px 10px 2px #000;
+}
+
+.sidebar_item{
+  transition: all .22s;
+}
+
+.sidebar_item:hover{
+  color: #b34902f5 !important;
+}
+
+/* .main-bar { */
+  /* background-color: teal; */
+/* } */
