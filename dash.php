@@ -32,101 +32,173 @@ include_once __DIR__.'/partials/nav.php';
 </div>  
     
     
-<div class="container main-bar p-3">
-    <h2 class="text-center">Dashboard..</h2>
-    <div class="container mb-5">
-                <div class="row p-2">
-                    <div class="col-md-4">
-                        <div class="card shadow py-2 bg-transparent border-0">
-                        <i class="card-img-top fa fa-book fa-3x text-center d-card-color"></i>
-                            <div class="card-body text-center d-card-color">
-                                <h2 class="card-title">0</h2>
-                                <h4 class="card-text fs-5"></h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card shadow py-2 bg-transparent border-0">
-                        <i class="card-img-top fa fa-recycle fa-3x text-center d-card-color"></i>
-                            <div class="card-body text-center d-card-color">
-                                <h2 class="card-title">0</h2>
-                                <h4 class="card-text fs-5">Issued Books</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card shadow py-2 bg-transparent border-0">
-                        <i class="card-img-top fa fa-user-friends fa-3x text-center d-card-color"></i>
-                            <div class="card-body text-center d-card-color">
-                                <h2 class="card-title">0</h2>
-                                <h4 class="card-text fs-5">Admins</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="row p-2">
-                    <div class="col-md-4">
-                            <div class="card shadow py-2 bg-transparent border-0">
-                            <i class="card-img-top fa fa-user fa-3x text-center d-card-color"></i>
-                                <div class="card-body text-center d-card-color">
-                                    <h2 class="card-title">0</h2>
-                                    <h4 class="card-text fs-5">Students</h4>
-                                </div>
-                            </div>
-                    </div>
-                    <div class="col-md-4">
-                            <div class="card shadow py-2 bg-transparent border-0">
-                            <i class="card-img-top fa fa-list fa-3x text-center d-card-color"></i>
-                                <div class="card-body text-center d-card-color">
-                                    <h2 class="card-title">0</h2>
-                                    <h4 class="card-text fs-5">Categories</h4>
-                                </div>
-                            </div>
-                    </div>
-                    <div class="col-md-4">
-                            <div class="card shadow py-2 bg-transparent border-0">
-                            <i class="card-img-top fa fa-plus-circle fa-3x text-center d-card-color"></i>
-                                <div class="card-body text-center d-card-color">
-                                    <h2 class="card-title">0</h2>
-                                    <h4 class="card-text fs-5">Pending Requests</h4>
-                                </div>
-                            </div>
-                    </div>
-                </div>
+   
+    <div class="one">
+        <p class="text-center services">Popular services</p>
+    
+    </p>
     </div>
 
-    <!-- Latest Books Added -->
-    <div class="container pb-1 mt-5 d-flex justify-content-between align-items-center">
-        <p class="fa fa-book d-card-color fa-lg"></p>
-        <h2 class="text-center">Latest Books</h2>
-        <a href="<?php echo APP_URL?>/allbooks.php" class="btn btn-sm btn-outline-dark">View All</a>
+<div class="cardssection container w-80">
+    <div class="card shadow w-25 my-4 h-50">
+        <div class="image">
+        <img src="img/social-2x.webp" alt="" class="card-img-top">
     </div>
-    <table class ="table table-light table-striped table-hover">
-        <thead class="table-dark text-white">
-            <tr>
-                <th>s/n</th>
-                <th>Book Image</th>
-                <th>Book Title</th>
-                <th>Author</th>
-                <th>isbn</th>
-                <th>Action</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td><a href="#" class="btn btn-outline-dark mx-2">Change Status</a>
-                <a href="#" class="btn btn-outline-danger">Delete</a></td>
-            </tr>
-        </tbody>
-    </table>
+        <div class="card-body" >
+            <h5 class="card-title">property search</h5>
+            <p class="card-text"> offer a search function that allows users to browse and filter listings based on their preferences,
+                 such as location, price range, property type, and amenities.</p>
+            <a href="#" class="btn btn-dark d-flex justify-content-center">learn more</a>
+        </div>
+
+    </div>
+   <div class="card shadow w-25 my-4 h-50">
+    <div class="image">
+    <img src="img/seo-2x.webp" alt="" class="card-img-top">
+</div>
+        <div class="card-body" >
+            <h5 class="card-title">Relocation services</h5>
+            <p class="card-text"> we carter to individuals or families  that are looking  torelocate and provide sources and services relaed to moving storage ,utilities and other relocation services.</p>
+            <a href="#" class="btn btn-dark d-flex justify-content-center">learn more</a>
+   </div>
+   </div>
+   <div class="card shadow w-25 my-4  h-25" >
+    <div class="image">
+            <img src="img/illustration-2x.webp" alt="" class="card-img-top h-25 ">
+        </div>
+                <div class="card-body" >
+                    <h5 class="card-title">property valuation</h5>
+                    <p class="card-text"> offer a search function that allows users to browse and filter listings based on their preferences,
+                         such as location, price range, property type, and amenities.</p>
+                    <a href="#" class="btn btn-dark d-flex justify-content-center">learn more</a>
+   </div>
+   </div>
+   <div class="card shadow w-25 h-50">
+    <div class="image">
+                <div class="image">
+                    <img src="img/voice-over-2x.webp" alt="" class="card-img-top h-25">
+                </div>
+                        <div class="card-body" >
+                            <h5 class="card-title">mortgage</h5>
+                            <p class="card-text"> offer a search function that allows users to browse and filter listings based on their preferences,
+                                 such as location, price range, property type, and amenities.</p>
+                            <a href="#" class="btn btn-dark d-flex justify-content-center">learn more</a>
+    </div>
+    </div>
+</div>
+    <div class="card shadow w-25 h-50">
+        <div class="image">
+                            <img src="img/translation-2x.webp" alt="" class="card-img-top ">
+                        </div>
+                            <div class="card-body" >
+                                    <h5 class="card-title">market trends</h5>
+                                    <p class="card-text"> offer a search function that allows users to browse and filter listings based on their preferences,
+                                         such as location, price range, property type, and amenities.</p>
+                                    <a href="#" class="btn btn-dark d-flex justify-content-center">learn more</a>
+    </div>
+    </div>
+    <div class="card shadow w-25 h-50">
+        <div class="image">
+                            <img src="img/social-2x.webp" alt="" class="card-img-top ">
+                        </div>
+                            <div class="card-body" >
+                                    <h5 class="card-title">market trends</h5>
+                                    <p class="card-text"> offer a search function that allows users to browse and filter listings based on their preferences,
+                                         such as location, price range, property type, and amenities.</p>
+                                    <a href="#" class="btn btn-dark d-flex justify-content-center">learn more</a>
+    </div>
+    </div> <div class="card shadow w-25 h-50">
+        <div class="image">
+                            <img src="img/translation-2x.webp" alt="" class="card-img-top ">
+                        </div>
+                            <div class="card-body" >
+                                    <h5 class="card-title">market trends</h5>
+                                    <p class="card-text"> offer a search function that allows users to browse and filter listings based on their preferences,
+                                         such as location, price range, property type, and amenities.</p>
+                                    <a href="#" class="btn btn-dark d-flex justify-content-center">learn more</a>
+    </div>
+    </div> <div class="card shadow w-25 h-50">
+        <div class="image">
+                            <img src="img/data-entry-2x.webp" alt="" class="card-img-top ">
+                        </div>
+                            <div class="card-body" >
+                                    <h5 class="card-title">market trends</h5>
+                                    <p class="card-text"> offer a search function that allows users to browse and filter listings based on their preferences,
+                                         such as location, price range, property type, and amenities.</p>
+                                    <a href="#" class="btn btn-dark d-flex justify-content-center">learn more</a>
+    </div>
+    </div>
+    <div class="card shadow w-25  h-40">
+        <div class="image">
+     <img src="img/logo-design-2x.webp" alt="" class="card-img-top">
+    </div>
+
+         <div class="card-body" >
+         <h5 class="card-title">agent and broker services</h5>
+         <p class="card-text"> offer a search function that allows users to browse and filter listings based on their preferences,
+                                                 such as location, price range, property type, and amenities.</p>
+        <a href="#" class="btn btn-dark d-flex justify-content-center">learn more</a>
+    </div>                                                
+     
+   </div>
+   </div>
+
 
 </div> 
+<style>
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.one{
+    /* display: flex; */
+    /* justify-content: center; */
+    font-family: ;
+}
+.services{
+    /* font-family: 'Arial Narrow', Arial, sans-serif; */
+    font-size: 2.9em;
+    font-style: italic;
+    margin-right: 4em;
+    font-weight: 400;
+}
+.shadow{ 
+    /* hii ya kueka blur effect kwenye card  */
+    box-shadow: 5px 5px 2px 6px rgba(0,0,0,1);
+}
+.cardssection{
+    /* width: 70%; */
+    display: flex;
+    margin-left: 15em;
+    /* na lazima uwe ume tumia kwanza display flex */
+    /* hio apo chini imetumika kuzisection /kuwrap izo cards into a group of three three  */
+    flex-wrap: wrap;
+     /*hio gap ndo inasaidia kuforce/kuongeza space ili zikae in three three u cant use wrap without gap   */
+    gap: 10px;
+    justify-content: center;
+    
+
+
+}
+.card-body{
+    /* width: 100%; */
+}
+/* hii class apo chini ya bootstrap lzm uichukue yote km ilivyo ukiona tu icho ki hyphen ujue nikitu kimoja ila ikiwa ina space ni vitu viwili tofauti */
+.card-img-top:hover{
+    /* u should hover the class ofthe image ut self and not the entire card div alaf unaeka scale ni lazima na io value ya scale pia nmesaau kazi yake */
+transform: scale(1.1);
+/* apo chini una andka kwanza the property to be transitioned in this case ni transform alf unekea mda for the transition to take place  */
+transition:transform .25s ;
+}
+.image{
+    /* hii inasaidia ku picha i hoveke ndani ya border isitoke nje ya border .this is the only line of code used to do hat specificly and u have to make sure it is in the class of the image to be styled noton the general div*/
+    overflow:hidden;
+}
+
+
+</style>
 
     <!-- Footer -->
 <?php #include_once __DIR__.'/partials/footer.php'; ?>
