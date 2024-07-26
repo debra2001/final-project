@@ -1,3 +1,8 @@
+<?php
+if($_SERVER['REQUEST_METHOD'] == 'POST'){
+	header("Location: dash.php");
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -319,7 +324,7 @@
   -------------------------------------------------------------
   ------------------------------------------------------------>
 	
-  <form class="form">
+  <form class="form" method="POST">
   <h1 class="title text-center mb-4">Talk to Us</h1>
 
   <!-- Name -->
@@ -351,6 +356,8 @@
     <button type="submit" class="btn btn-primary" tabIndex="-1">Send feedback</button>
   </div>
 </form>
+
+
 
 <style>
 

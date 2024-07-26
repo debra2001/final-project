@@ -49,7 +49,7 @@ include_once __DIR__.'/partials/nav.php';
             <h5 class="card-title">property search</h5>
             <p class="card-text"> offer a search function that allows users to browse and filter listings based on their preferences,
                  such as location, price range, property type, and amenities.</p>
-            <a href="#" class="btn btn-dark d-flex justify-content-center">learn more</a>
+            <a href="support.php" class="btn btn-dark d-flex justify-content-center">send request</a>
         </div>
 
     </div>
@@ -60,7 +60,7 @@ include_once __DIR__.'/partials/nav.php';
         <div class="card-body" >
             <h5 class="card-title">Relocation services</h5>
             <p class="card-text"> we carter to individuals or families  that are looking  torelocate and provide sources and services relaed to moving storage ,utilities and other relocation services.</p>
-            <a href="#" class="btn btn-dark d-flex justify-content-center">learn more</a>
+            <a href="#" class="btn btn-dark d-flex justify-content-center">send request</a>
    </div>
    </div>
    <div class="card shadow w-25 my-4  h-25" >
@@ -71,7 +71,7 @@ include_once __DIR__.'/partials/nav.php';
                     <h5 class="card-title">property valuation</h5>
                     <p class="card-text"> offer a search function that allows users to browse and filter listings based on their preferences,
                          such as location, price range, property type, and amenities.</p>
-                    <a href="#" class="btn btn-dark d-flex justify-content-center">learn more</a>
+                    <a href="#" class="btn btn-dark d-flex justify-content-center">send request</a>
    </div>
    </div>
    <div class="card shadow w-25 h-50">
@@ -83,7 +83,7 @@ include_once __DIR__.'/partials/nav.php';
                             <h5 class="card-title">mortgage</h5>
                             <p class="card-text"> offer a search function that allows users to browse and filter listings based on their preferences,
                                  such as location, price range, property type, and amenities.</p>
-                            <a href="#" class="btn btn-dark d-flex justify-content-center">learn more</a>
+                            <a href="support.php" class="btn btn-dark d-flex justify-content-center">send request</a>
     </div>
     </div>
 </div>
@@ -95,7 +95,7 @@ include_once __DIR__.'/partials/nav.php';
                                     <h5 class="card-title">market trends</h5>
                                     <p class="card-text"> offer a search function that allows users to browse and filter listings based on their preferences,
                                          such as location, price range, property type, and amenities.</p>
-                                    <a href="#" class="btn btn-dark d-flex justify-content-center">learn more</a>
+                                    <a href="support.php" class="btn btn-dark d-flex justify-content-center">send request</a>
     </div>
     </div>
     <div class="card shadow w-25 h-50">
@@ -106,7 +106,7 @@ include_once __DIR__.'/partials/nav.php';
                                     <h5 class="card-title">market trends</h5>
                                     <p class="card-text"> offer a search function that allows users to browse and filter listings based on their preferences,
                                          such as location, price range, property type, and amenities.</p>
-                                    <a href="#" class="btn btn-dark d-flex justify-content-center">learn more</a>
+                                    <a href="support.php" class="btn btn-dark d-flex justify-content-center">send request</a>
     </div>
     </div> <div class="card shadow w-25 h-50">
         <div class="image">
@@ -116,7 +116,7 @@ include_once __DIR__.'/partials/nav.php';
                                     <h5 class="card-title">market trends</h5>
                                     <p class="card-text"> offer a search function that allows users to browse and filter listings based on their preferences,
                                          such as location, price range, property type, and amenities.</p>
-                                    <a href="#" class="btn btn-dark d-flex justify-content-center">learn more</a>
+                                    <a href="support.php" class="btn btn-dark d-flex justify-content-center">send request</a>
     </div>
     </div> <div class="card shadow w-25 h-50">
         <div class="image">
@@ -126,7 +126,7 @@ include_once __DIR__.'/partials/nav.php';
                                     <h5 class="card-title">market trends</h5>
                                     <p class="card-text"> offer a search function that allows users to browse and filter listings based on their preferences,
                                          such as location, price range, property type, and amenities.</p>
-                                    <a href="#" class="btn btn-dark d-flex justify-content-center">learn more</a>
+                                    <a href="support.php" class="btn btn-dark d-flex justify-content-center">send request</a>
     </div>
     </div>
     <div class="card shadow w-25  h-40">
@@ -138,7 +138,7 @@ include_once __DIR__.'/partials/nav.php';
          <h5 class="card-title">agent and broker services</h5>
          <p class="card-text"> offer a search function that allows users to browse and filter listings based on their preferences,
                                                  such as location, price range, property type, and amenities.</p>
-        <a href="#" class="btn btn-dark d-flex justify-content-center">learn more</a>
+        <a href="support.php" class="btn btn-dark d-flex justify-content-center">send request</a>
     </div>                                                
      
    </div>

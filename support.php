@@ -42,7 +42,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             VALUES ('$email', '$subject', '$message', 'pending', NOW(), NOW())";
 
     if (mysqli_query($conn, $sql)) {
-        echo "Support request submitted successfully!";
+        header("Location:pay.php");
+            exit;
     } else {
         echo "Error: ". $sql. "<br>". mysqli_error($conn);
     }
