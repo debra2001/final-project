@@ -32,3 +32,5 @@ if(move_uploaded_file($_FILES['upload']['tmp_name'],$target_path)){
     echo"sorry,file not uploaded,please try again";
 }
 ?>
+<!-- retrieve -->
+ 

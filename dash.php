@@ -46,9 +46,9 @@ include_once __DIR__.'/partials/nav.php';
         <img src="img/social-2x.webp" alt="" class="card-img-top">
     </div>
         <div class="card-body" >
-            <h5 class="card-title">property search</h5>
-            <p class="card-text"> offer a search function that allows users to browse and filter listings based on their preferences,
-                 such as location, price range, property type, and amenities.</p>
+            <h5 class="card-title">video and animation</h5>
+            <p class="card-text"> Video and animation as a service involves providing professional creation and production of video and animated content for clients. This includes concept development, scriptwriting, filming or animating, and post-production editing to deliver high-quality visual media tailored to specific goals.
+                 .</p>
             <a href="support.php" class="btn btn-dark d-flex justify-content-center">send request</a>
         </div>
 
@@ -58,8 +58,11 @@ include_once __DIR__.'/partials/nav.php';
     <img src="img/seo-2x.webp" alt="" class="card-img-top">
 </div>
         <div class="card-body" >
-            <h5 class="card-title">Relocation services</h5>
-            <p class="card-text"> we carter to individuals or families  that are looking  torelocate and provide sources and services relaed to moving storage ,utilities and other relocation services.</p>
+            <h5 class="card-title">SEO</h5>
+            <p class="card-text"> 
+On-Page SEO: Optimizing website content and HTML  to improve search engine rankings.
+Off-Page SEO: Building backlinks and improving the site's authority through external sources.
+Technical SEO: Ensuring website meets technical requirements of search engines like site speed, and proper indexing</p>
             <a href="#" class="btn btn-dark d-flex justify-content-center">send request</a>
    </div>
    </div>
@@ -68,9 +71,12 @@ include_once __DIR__.'/partials/nav.php';
             <img src="img/illustration-2x.webp" alt="" class="card-img-top h-25 ">
         </div>
                 <div class="card-body" >
-                    <h5 class="card-title">property valuation</h5>
-                    <p class="card-text"> offer a search function that allows users to browse and filter listings based on their preferences,
-                         such as location, price range, property type, and amenities.</p>
+                    <h5 class="card-title">WEB DESIGN</h5>
+                    <p class="card-text"> Web Design and Development
+Responsive Design: Ensuring websites are mobile-friendly and adapt to various screen sizes.
+User Interface (UI) Design: Creating visually appealing and intuitive layouts.
+Web Development: Building and maintaining websites with a focus on performance and user experience.
+                         .</p>
                     <a href="#" class="btn btn-dark d-flex justify-content-center">send request</a>
    </div>
    </div>
@@ -80,9 +86,8 @@ include_once __DIR__.'/partials/nav.php';
                     <img src="img/voice-over-2x.webp" alt="" class="card-img-top h-25">
                 </div>
                         <div class="card-body" >
-                            <h5 class="card-title">mortgage</h5>
-                            <p class="card-text"> offer a search function that allows users to browse and filter listings based on their preferences,
-                                 such as location, price range, property type, and amenities.</p>
+                            <h5 class="card-title">Digital Marketing</h5>
+                            <p class="card-text">Digital marketing as a service involves leveraging online channels to promote businesses, products, or services. It encompasses a wide range of activities aimed at increasing brand awareness, driving traffic, and generating leads or sales through digital platforms</p>
                             <a href="support.php" class="btn btn-dark d-flex justify-content-center">send request</a>
     </div>
     </div>
@@ -92,9 +97,8 @@ include_once __DIR__.'/partials/nav.php';
                             <img src="img/translation-2x.webp" alt="" class="card-img-top ">
                         </div>
                             <div class="card-body" >
-                                    <h5 class="card-title">market trends</h5>
-                                    <p class="card-text"> offer a search function that allows users to browse and filter listings based on their preferences,
-                                         such as location, price range, property type, and amenities.</p>
+                                    <h5 class="card-title">Data analytics</h5>
+                                    <p class="card-text"> Data analytics involves the systematic computational analysis of data to uncover patterns, correlations, trends, and insights. It utilizes techniques such as statistical analysis, machine learning, and data mining to transform raw data into actionable information..</p>
                                     <a href="support.php" class="btn btn-dark d-flex justify-content-center">send request</a>
     </div>
     </div>
@@ -103,9 +107,8 @@ include_once __DIR__.'/partials/nav.php';
                             <img src="img/social-2x.webp" alt="" class="card-img-top ">
                         </div>
                             <div class="card-body" >
-                                    <h5 class="card-title">market trends</h5>
-                                    <p class="card-text"> offer a search function that allows users to browse and filter listings based on their preferences,
-                                         such as location, price range, property type, and amenities.</p>
+                                    <h5 class="card-title">logo creation</h5>
+                                    <p class="card-text"> Logo making as a service involves designing unique and visually appealing symbols or graphics that represent a brand, company, or organization. This service typically includes understanding the client's brand identity and goals, brainstorming and sketching initial ideas.</p>
                                     <a href="support.php" class="btn btn-dark d-flex justify-content-center">send request</a>
     </div>
     </div> <div class="card shadow w-25 h-50">

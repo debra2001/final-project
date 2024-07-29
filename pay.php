@@ -52,10 +52,14 @@
                             </div>
                         </form>
                     </div>
+                    <div>
+                    <p class="total">Total payment:$50</p>
+                    </div>
                     <div class="panel-footer">
                         <div class="row">
-                            <div class="col-xs-12"> <button class="btn btn-success btn-lg btn-block">Confirm Payment</button> </div>
+                            <div class="col-xs-12"> <button class="btn btn-success btn-lg btn-block"><a href="suc.php">Confirm Payment</a></button> </div>
                         </div>
+                       
                     </div>
                 </div>
             </div>
@@ -67,6 +71,10 @@
 <style>
     body{
         background-color: lightgray;
+    }
+    .total{
+        font-size: 25px;
+
     }
     .panel-body{
         display: flex;

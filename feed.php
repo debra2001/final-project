@@ -353,7 +353,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
   <!-- Submit btn -->
   <div class="text-center">
-    <button type="submit" class="btn btn-primary" tabIndex="-1">Send feedback</button>
+    <button type="submit" class="btn btn-primary" tabIndex="-1"><a href="dash.php">Send feedback</a></button>
   </div>
 </form>
 
@@ -511,11 +511,15 @@ form {
   line-height: 2.5rem;
   padding: 0 3rem;
   /* margin-top: 2em; */
+ 
   border: 0;
   border-radius: 3rem;
   background-image:linear-gradient(131deg, #ffd340, #ff923c, #ff923c, #ff923c);
   background-size: 300% 100%;
   transition: all 0.3s ease-in-out;
+}
+.btn.btn-primary a{
+	text-decoration: none;
 }
 
 .btn.btn-primary:hover:enabled {
